@@ -1,0 +1,10 @@
+name: ai-model
+replicaCount: 1
+image:
+  repository: tensorflow/serving
+  tag: latest
+containerPort: 8501
+service:
+  type: ClusterIP
+  port: 80
+

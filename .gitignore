@@ -1,0 +1,3 @@
+# Helm-related
+*.tgz
+.helm/
