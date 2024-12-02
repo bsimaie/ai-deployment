@@ -7,4 +7,8 @@ containerPort: 8501
 service:
   type: ClusterIP
   port: 80
+serviceAccount:
+  create: true             # Whether to create the ServiceAccount
+  automount: true          # Whether to automatically mount the ServiceAccount token
+  annotations: {}          # Optional annotations for the ServiceAccount
 
