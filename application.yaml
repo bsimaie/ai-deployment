@@ -15,3 +15,7 @@ spec:
     automated: {}
     syncOptions:
       - CreateNamespace=true
+ingress:
+  enabled: false
+metallb:
+  enabled: false
