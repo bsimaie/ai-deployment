@@ -11,4 +11,7 @@ serviceAccount:
   create: true             # Whether to create the ServiceAccount
   automount: true          # Whether to automatically mount the ServiceAccount token
   annotations: {}          # Optional annotations for the ServiceAccount
+ingress:
+  enabled: false # Set to true to enable ingress.
+  host: ""       # Specify the ingress host (e.g., myapp.example.com).
 
