@@ -11,6 +11,7 @@ spec:
     path: . # Root directory
   destination:
     server: https://kubernetes.default.svc
+    namespace: ai-deployment
   syncPolicy:
     automated: {}
     syncOptions:
