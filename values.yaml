@@ -12,8 +12,10 @@ serviceAccount:
   automount: true          # Whether to automatically mount the ServiceAccount token
   annotations: {}          # Optional annotations for the ServiceAccount
 ingress:
-  enabled: false # Set to true to enable ingress.
+  enabled: false # Set to false to disable ingress.
   host: ""       # Specify the ingress host (e.g., myapp.example.com).
+metallb:
+  enabled: false # Set to false to disable metallb.
 autoscaling:
   enabled: false
   minReplicas: 1
